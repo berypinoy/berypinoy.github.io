@@ -1,0 +1,74 @@
+@font-face {
+  font-family: fa;
+  src: url("Poppins-Regular.ttf");
+}
+
+* {
+  font-family: fa;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  color: white;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a h1 {
+  color: white;
+}
+
+/* Words Box */
+
+article {
+  position: relative;
+}
+
+.lang-container {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lang-container h1 {
+  font-size: 56px;
+}
+
+.lang-container h3 {
+  font-size: 28px;
+}
+
+.lang-container em {
+  font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer-web {
+  margin-top: 20px;
+}
+
+i {
+  color: rgb(6, 149, 192);
+  letter-spacing: 16px;
+}
