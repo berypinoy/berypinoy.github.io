@@ -30,6 +30,10 @@ a h1 {
   color: white;
 }
 
+.title-text {
+  font-size: 22px;
+}
+
 /* Words Box */
 
 article {
@@ -59,16 +63,24 @@ article {
 /* Footer */
 
 footer {
+  width: 100%;
+  height: 90%;
   text-align: center;
   font-weight: 600;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer-web {
-  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.encounter {
+  width: 120px;
 }
 
 i {
-  color: rgb(6, 149, 192);
+  color: #14510b;
   letter-spacing: 16px;
 }
